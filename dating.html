@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Level Up Dating – your AI texting coach</title>
+  <meta name="description" content="Share a dating conversation, pick your tone, and get replies that sound like you, each with a short reason. For adults 18+.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <!-- Mesure d'audience sans cookie (GoatCounter). Remplacer GOATCOUNTER_CODE. -->
+  <script data-goatcounter="https://GOATCOUNTER_CODE.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  <!-- Formulaire de liste d'attente (Tally) -->
+  <script async src="https://tally.so/widgets/embed.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <a class="brand" href="./">Level Up <span>Dating</span></a>
+      <span class="age-flag">18+ only</span>
+    </header>
+
+    <main>
+      <div class="hero">
+        <div>
+          <h1>Stuck on what to text back?</h1>
+          <p class="lede">Share the conversation, pick your tone, and get three replies that sound like you, each with a one-line reason. Over time, you'll need it less.</p>
+          <div class="cta-row">
+            <button class="btn" type="button" data-tally-open="TALLY_FORM_ID_DATING" data-tally-layout="modal" data-tally-width="460" data-goatcounter-click="waitlist-open-dating">Join the waitlist</button>
+            <span class="cta-note">Free early access. Adults 18+.</span>
+          </div>
+        </div>
+
+        <figure class="demo" aria-label="Example of a reply suggestion">
+          <p class="demo-context"><strong>Chat with</strong> <span class="blur" aria-hidden="true">Samantha</span> <span class="visually-hidden">a match (name hidden)</span>, day 2</p>
+          <div class="chat">
+            <p class="bubble you">The hiking pic on your profile, where was that?</p>
+            <p class="bubble them">Lake District! haha ok so what do you actually do on weekends</p>
+          </div>
+          <div class="tones" role="group" aria-label="Tone">
+            <button class="tone" type="button" aria-pressed="true" data-tone="playful">Playful</button>
+            <button class="tone" type="button" aria-pressed="false" data-tone="direct">Direct</button>
+            <button class="tone" type="button" aria-pressed="false" data-tone="warm">Warm</button>
+          </div>
+          <div class="reply" aria-live="polite">
+            <p class="text" id="reply-text">Depends. Is this a trap where you judge me for saying "brunch"?</p>
+            <p class="why" id="reply-why">Why it works: it answers with a joke and hands the question back, so the chat keeps moving.</p>
+          </div>
+        </figure>
+      </div>
+
+      <section class="band" aria-labelledby="how">
+        <h2 id="how">From stuck to sent in three steps.</h2>
+        <ol class="steps">
+          <li><h3>Share the chat</h3><p>Paste it or upload a screenshot. Blur names and photos first; the coach doesn't need them.</p></li>
+          <li><h3>Choose your tone</h3><p>Natural, playful, direct, warm or flirty. Add context if you want.</p></li>
+          <li><h3>Pick a reply</h3><p>Edit it in your own words. The short reason helps you write the next one yourself.</p></li>
+        </ol>
+      </section>
+
+      <section class="band" aria-labelledby="diff">
+        <h2 id="diff">Built to make you better at this.</h2>
+        <div class="pillars">
+          <div><h3>Sounds like you</h3><p>Replies follow the way you write. No copy-paste pickup lines.</p></div>
+          <div><h3>Respect comes first</h3><p>If someone says no or loses interest, the coach tells you to let it go. It never helps you push.</p></div>
+          <div><h3>Their privacy too</h3><p>Screenshots are deleted after the suggestion. The other person's messages are never kept.</p></div>
+        </div>
+      </section>
+
+      <section class="band faq" aria-labelledby="faq">
+        <h2 id="faq">Questions</h2>
+        <details>
+          <summary>When can I use it?</summary>
+          <p>We're opening access in small groups. People on the waitlist get in first.</p>
+        </details>
+        <details>
+          <summary>How much will it cost?</summary>
+          <p>There will be a free plan with a few replies per week. Premium is planned at around $7.99 a month for unlimited replies and profile help.</p>
+        </details>
+        <details>
+          <summary>Does it read people's minds?</summary>
+          <p>No. It can't know how someone feels from a few messages, and it says so when a chat is unclear.</p>
+        </details>
+        <details>
+          <summary>Who is it for?</summary>
+          <p>Adults 18 and over. You'll confirm your age when you join.</p>
+        </details>
+      </section>
+
+      <section class="band closing" aria-labelledby="close">
+        <h2 id="close">Send the next message with confidence.</h2>
+        <p>Join the waitlist and we'll email you when your spot opens. One email, no spam.</p>
+        <button class="btn" type="button" data-tally-open="TALLY_FORM_ID_DATING" data-tally-layout="modal" data-tally-width="460" data-goatcounter-click="waitlist-open-dating-bottom">Join the waitlist</button>
+      </section>
+    </main>
+
+    <footer>
+      Level Up AI is in early testing. For adults 18+. <a href="privacy.html">Privacy</a>
+    </footer>
+  </div>
+
+  <script>
+    // Démonstration des tons : exemple statique, aucune IA appelée.
+    const replies = {
+      playful: ["Depends. Is this a trap where you judge me for saying \"brunch\"?",
+                "Why it works: it answers with a joke and hands the question back, so the chat keeps moving."],
+      direct:  ["Climbing on Saturdays, long walks on Sundays. Sounds like you'd beat me on a hill though.",
+                "Why it works: a real answer plus a light link to her hiking photo gives her something to reply to."],
+      warm:    ["Mostly outdoors, honestly. That Lake District photo made me want to go back. Do you go often?",
+                "Why it works: it shares something true and shows interest in what she cares about."]
+    };
+    document.querySelectorAll('.tone').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tone').forEach(b => b.setAttribute('aria-pressed', 'false'));
+        btn.setAttribute('aria-pressed', 'true');
+        const [t, w] = replies[btn.dataset.tone];
+        document.getElementById('reply-text').textContent = t;
+        document.getElementById('reply-why').textContent = w;
+      });
+    });
+  </script>
+</body>
+</html>
